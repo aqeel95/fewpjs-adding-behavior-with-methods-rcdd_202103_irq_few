@@ -36,5 +36,38 @@ class Bird {
   }
 } 
 
+ constructor(name,sex){
+    	this.name=name;
+      	this.sex=sex;
+    }
+    speak(){
+      return `this.name says meow!`
+    }
+}
+
+let cat = new Cat("Sasha");
+ 
+class Dog {
+  constructor(name,sex){
+    	this.name=name;
+      	this.sex=sex;
+    }
+    speak(){
+      return `this.name says meow!`
+    }
+ 
+ 
+ 
+class Bird {
+  constructor(name,sex){
+    	this.name=name;
+      	this.sex=sex;
+    }
+    speak(){
+      return `this.name says meow!`
+    }
+}
+
+
 
 
